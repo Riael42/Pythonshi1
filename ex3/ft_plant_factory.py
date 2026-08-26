@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 
 class Plant:
-	#class definition with attributes
-	def __init__(self, name, height, age):
-		self.name = name
-		self.height = height
-		self.age = age
+    # class definition with attributes
+    def __init__(self, name, height, age):
+        self.name = name
+        self.height = height
+        self.age = age
 
-	#class method to print the aforementioned attributes
-	def show(self):
-		print(f"{self.name}: {self.height} cm, {self.age} days old")
+    # class method to print the aforementioned attributes
+    def show(self):
+        print(f"{self.name}: {self.height} cm, {self.age} days old")
+
 
 if __name__ == "__main__":
     plants = [
